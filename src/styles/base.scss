@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #efefef;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px; /* Base Font Size */
+  line-height: 1.2;
+  margin: 0;
+  padding: 2em;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 1em;
+  }
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 1em 0;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+button {
+  border: none;
+  background-color: #C0C0C0;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+
