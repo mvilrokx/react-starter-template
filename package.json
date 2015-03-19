@@ -1,8 +1,20 @@
 {
   "name": "reactProjectTemplate",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Project template that sets up a fully functioning react.js application with webpack.",
   "main": "assets/js/bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvilrokx/react-starter-template.git"
+  },
+  "keywords": [
+    "template",
+    "react",
+    "webpack",
+    "hot module replacement",
+    "ES6",
+    "quickstart"
+  ],
   "devDependencies": {
     "autoprefixer-core": "^5.1.7",
     "babel-core": "^4.7.16",
@@ -26,5 +38,9 @@
     "clean": "rm ./dist/assets/js/bundle.js ./dist/index.html"
   },
   "author": "Mark Vilrokx <mvilrokx@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvilrokx/react-starter-template/issues"
+  },
+  "homepage": "https://github.com/mvilrokx/react-starter-template",
 }
