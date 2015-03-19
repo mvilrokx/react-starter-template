@@ -3,6 +3,7 @@ var csswring     = require('csswring');
 var webpack      = require('webpack');
 var path         = require('path');
 var ncp          = require('ncp').ncp;
+var fs           = require('fs');
 
 var config = {
   entry: './src/scripts/app.js',
@@ -38,6 +39,13 @@ var config = {
     })
   ]
 };
+
+// MAKE SURE FOLDER EXISTS FIRST!
+try {
+  fs.mkdirSync(path.resolve(__dirname, './dist'));
+} catch(e) {
+  if ( e.code !== 'EEXIST' ) throw e;
+}
 
 ncp(path.resolve(__dirname, './src/index.html'), path.resolve(__dirname, './dist/index.html'), function (err) {
   if (err) {
