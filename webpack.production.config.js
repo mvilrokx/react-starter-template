@@ -4,7 +4,6 @@ var webpack      = require('webpack');
 var path         = require('path');
 var ncp          = require('ncp').ncp;
 var fs           = require('fs');
-// import fs from 'fs';
 
 var config = {
   entry: './src/scripts/app.js',
