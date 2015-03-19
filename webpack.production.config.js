@@ -4,6 +4,7 @@ var webpack      = require('webpack');
 var path         = require('path');
 var ncp          = require('ncp').ncp;
 var fs           = require('fs');
+// import fs from 'fs';
 
 var config = {
   entry: './src/scripts/app.js',
@@ -14,8 +15,9 @@ var config = {
   module: {
     loaders: [{
       test: /\.js$/,
-      loader: 'jsx-loader?harmony',
-      exclude: /node_modules/
+      exclude: /node_modules/,
+      loader: 'babel-loader'
+      // loader: 'jsx-loader?harmony',
     }, {
       test: /\.scss$/,
       loader: 'style-loader!css-loader!postcss-loader!sass-loader'

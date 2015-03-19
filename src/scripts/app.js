@@ -1,5 +1,7 @@
-var React                 = require('react');
-var WelcomeMsg = require('./components/welcomeMsg.js');
+// var React                 = require('react');
+import React from 'react';
+// var WelcomeMsg = require('./components/welcomeMsg.js');
+import WelcomeMsg from './components/welcomeMsg';
 
 require("../styles/base.scss"); //Yeah, require CSS!!!
 

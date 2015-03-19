@@ -61,8 +61,8 @@ If you want to add [addition PostCSS plugins](https://github.com/postcss/postcss
 ## [Sass](https://www.npmjs.com/package/node-sass)
 You can use Sass in this project, it will work with all features provided in this project template, including hot/live reload.  Currently it is using libsass which already offers a performance boost over the ruby version but in the future I am looking into doing away with this altogether and just us PostCSS Plugins.
 
-## [React JSX Transformer (with harmony support)](https://www.npmjs.com/package/react-tools)
-You can use JSX in the React components you create, the project is configured to compile them into plain JS for you, again with all features intact including Het Reload.
+## [ES6 Support](https://babeljs.io/)
+The project is configured to use babel so you get access to new ES6 features out of the box.  Babel also supports JSX so you can use that in the React components you create, the project is configured to compile them into plain JS for you, again with all features intact including Hot Reload.
 
 ## JQuery
 The project is also configured to use JQuery.  I use this for AJAX requests mostly.  You can easily remove it if you want to, just run `npm uninstall jquery --save-dev`.

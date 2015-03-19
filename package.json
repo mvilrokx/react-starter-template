@@ -5,10 +5,11 @@
   "main": "assets/js/bundle.js",
   "devDependencies": {
     "autoprefixer-core": "^5.1.7",
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
     "css-loader": "^0.9.1",
     "csswring": "^3.0.2",
     "jquery": "^2.1.3",
-    "jsx-loader": "^0.12.2",
     "ncp": "^2.0.0",
     "postcss-loader": "^0.3.0",
     "react": "^0.13.1",

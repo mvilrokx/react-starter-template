@@ -1,8 +1,9 @@
-var React = require('react');
+// var React = require('react');
+import React from 'react';
 
 require('./welcomeMsg.scss');
 
-var welcomeMsg = React.createClass({
+var WelcomeMsg = React.createClass({
   render: function() {
     var features = [];
     this.props.features.forEach(function(feature){
@@ -22,4 +23,6 @@ var welcomeMsg = React.createClass({
   }
 });
 
-module.exports = welcomeMsg;
+// module.exports = welcomeMsg;
+
+export default WelcomeMsg;
