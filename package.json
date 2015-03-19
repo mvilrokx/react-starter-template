@@ -22,7 +22,8 @@
   "scripts": {
     "build": "NODE_ENV=production webpack -p --progress --colors --config webpack.production.config.js",
     "dev": "webpack-dev-server --progress --colors --hot --content-base dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm ./dist/assets/js/bundle.js ./dist/index.html"
   },
   "author": "Mark Vilrokx <mvilrokx@gmail.com>",
   "license": "MIT"

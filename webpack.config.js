@@ -16,7 +16,6 @@ var config = {
     loaders: [{
       test: /\.js$/,
       loaders: ['react-hot', 'babel-loader'],
-      // loaders: ['react-hot', 'jsx-loader?harmony'],
       exclude: /node_modules/
     }, {
       test: /\.scss$/,

@@ -1,4 +1,3 @@
-// var React = require('react');
 import React from 'react';
 
 require('./welcomeMsg.scss');
@@ -22,7 +21,5 @@ var WelcomeMsg = React.createClass({
     );
   }
 });
-
-// module.exports = welcomeMsg;
 
 export default WelcomeMsg;

@@ -17,7 +17,6 @@ var config = {
       test: /\.js$/,
       exclude: /node_modules/,
       loader: 'babel-loader'
-      // loader: 'jsx-loader?harmony',
     }, {
       test: /\.scss$/,
       loader: 'style-loader!css-loader!postcss-loader!sass-loader'
