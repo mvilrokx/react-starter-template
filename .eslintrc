@@ -1,0 +1,19 @@
+{
+  "ecmaFeatures": {
+    "unicodeCodePointEscapes": true,
+    "templateStrings": true,
+    "modules": true,
+    "jsx": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "amd": true
+  },
+  "rules": {
+    "quotes": [1, "single"]
+  },
+  "globals": {
+    "module": true
+  }
+}

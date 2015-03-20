@@ -21,6 +21,12 @@
     "babel-loader": "^4.2.0",
     "css-loader": "^0.9.1",
     "csswring": "^3.0.2",
+    "eslint": "^0.17.1",
+    "eslint-friendly-formatter": "^1.0.5",
+    "eslint-loader": "^0.7.0",
+    "file-loader": "^0.8.1",
+    "html-webpack-plugin": "^1.1.0",
+    "image-webpack-loader": "^1.4.0",
     "jquery": "^2.1.3",
     "ncp": "^2.0.0",
     "postcss-loader": "^0.3.0",
@@ -28,6 +34,8 @@
     "react-hot-loader": "^1.2.3",
     "sass-loader": "^0.5.0",
     "style-loader": "^0.8.3",
+    "svgo": "^0.5.0",
+    "url-loader": "^0.5.5",
     "webpack": "^1.7.3",
     "webpack-dev-server": "^1.7.0"
   },
@@ -35,7 +43,7 @@
     "build": "NODE_ENV=production webpack -p --progress --colors --config webpack.production.config.js",
     "dev": "webpack-dev-server --progress --colors --hot --content-base dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm ./dist/assets/js/bundle.js ./dist/index.html"
+    "clean": "rm -rf ./dist"
   },
   "author": "Mark Vilrokx <mvilrokx@gmail.com>",
   "license": "MIT",
