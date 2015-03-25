@@ -3,7 +3,6 @@ var autoprefixer      = require('autoprefixer-core');
 var csswring          = require('csswring');
 var webpack           = require('webpack');
 var path              = require('path');
-var ncp               = require('ncp').ncp;
 var fs                = require('fs');
 
 var config = {
