@@ -1,3 +1,4 @@
+import ReactDOM from 'react-dom';
 import React from 'react';
 import WelcomeMsg from './components/welcomeMsg';
 
@@ -14,6 +15,6 @@ var features = [
   {name: 'Development and Production configuration and scripts', url: ''}
 ];
 
-React.render(
+ReactDOM.render(
   <WelcomeMsg features={features} />, document.getElementById('content')
 );

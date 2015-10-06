@@ -38,7 +38,8 @@ var config = {
   postcss: [autoprefixer, csswring],
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/template_index.html'
+      template: './src/template_index.html',
+      inject: 'body' // Inject all scripts into the body
     }),
     // removes a lot of debugging code in React
     new webpack.DefinePlugin({

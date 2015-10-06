@@ -37,7 +37,8 @@ var config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/template_index.html'
+      template: './src/template_index.html',
+      inject: 'body' // Inject all scripts into the body
     })
   ],
   postcss: [autoprefixer, csswring],
